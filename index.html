@@ -1,137 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="x-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Personal Portfolio Website Design | Codehal</title>
-
-    <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!-- custom css -->
-     <link rel="stylesheet" href="css/Style.css">
+    <title>vigneshvar pandi R | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-  <body>
-    <!-- header design -->
-     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-
-        <i class='bx bx-menu' id="menu-icon"></i>
-
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
-     </header>
-
-<!-- home section design -->
-<section class="home" id="home">
-    <div class="home-content">
-        <h3>Hello,It's Me</h3>
-        <h1>Vigneshvar pandi</h1>
-        <h3>And I'm a <span>Full stack Developer</span></h3>
-        <p>"I'm a Computer Science and Engineering student passionate about building web solutions. As a full-stack developer, I create dynamic and user-friendly applications using HTML, CSS, and JavaScript."</p>
-        <div class="social-media">
-            <a href=""><i class='bx bxl-instagram-alt' ></i></a>
-            <a href=""><i class='bx bxl-linkedin' ></i></a>
-            <a href=""><i class='bx bxl-github' ></i></a>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <a href="#home" class="logo">VIGNESHVAR PANDI R</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <a href="#" class="btn">Download Cv</a>
-     </div>
+    </nav>
 
-     <div class="home-img">
-        <img src="images/home.jpg" alt="">
-     </div>
+    <!-- Home Section (Intro) -->
+    <header id="home">
+        <div class="container header-container">
+            <div class="header-content">
+                <div class="profile-image">
+                    <!-- Update this image path to your local or hosted image -->
+                    <img src="images/home.jpg" alt="VIGNESHVAR PANDI R">
+                </div>
+                <div class="text-content">
+                    <h1>vigneshvar pandi R</h1>
+                    <p>Student at [sri eshwar college of engineering]</p>
+                    <p><strong>Phone:</strong> 8220749019 | <strong>Email:</strong> <a href="mailto:vigneshvarpandi.r2023lcse@sece.ac.in">vigneshvarpandi.r2023lcse@sece.ac.in</a></p>
+                    <div class="social-links">
+                        <a href="https://github.com/vignesh0705" target="_blank" class="fab fa-github"></a>
+                        <a href="https://www.linkedin.com/in/vigneshvar-pandi-r-9ab2292a7/" target="_blank" class="fab fa-linkedin-in"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a BE.CSE student specializing in computer science Engineering at Sri Eshwar College of Engineering. I have a passion for coding and problem-solving, and I am constantly learning new technologies to stay ahead in the tech industry. My focus is on developing scalable applications and solving real-world problems through technology.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-content">
+                <div class="skill">
+                    <i class="fab fa-java" style="color:#007396;"></i>
+                    <p>Java</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-node-js" style="color:#8CC84B;"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js-square" style="color:#F7DF1E;"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database" style="color:#00758F;"></i>
+                    <p>MySQL</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt" style="color:#1572B6;"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-html5" style="color:#E34F26;"></i>
+                    <p>HTML</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Wireless Sensor Network for Forest Monitoring</h3>
+                <p><strong>Technologies:</strong> GSM, Wireless Sensor Network, Environmental Monitoring</p>
+                <p>This system uses a Wireless Sensor Network (WSN) to monitor forest conditions and detect fires by tracking parameters like temperature, humidity, and smoke levels. Alerts are sent to mobile phones via GSM, providing real-time disaster prevention capabilities.</p>
+            </div>
+            <div class="project">
+                <h3>Inventory Management System</h3>
+                <p><strong>Technologies:</strong> Java, MySQL, Spring Boot</p>
+                <p>A comprehensive inventory management system designed to track stock levels, manage supplier details, and generate reports for efficient inventory control. This system automates processes like stock addition, removal, and real-time inventory updates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>BE. (CSE)</strong> - Sri Eshwar College of Engineering (2023-2027)</li>
+                <li><strong>Diploma (EEE)</strong> - Christian Polytechnic College (2021-2023), 81%</li>
+                <li><strong>SSLC</strong> - Cheran Vidhyalaya Matriculation Higher Secondary School(2020-2021) 80%</li>
+            </ul>
+        </div>
+    </section>
+<!-- Contact Section -->
+<section id="contact" class="contact section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p><strong>Mobile Number:</strong> 8220749019</p>
+        <p><strong>Address:</strong> Bus stand, south 2nd street,Chinnalapatti,Dindigul, Pin code: 624302</p>
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="4e56a49b-516d-4098-9549-4808e3f87f6c">
+
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </div>
 </section>
 
-<!-- about section design -->
- <section class="about" id="about">
-    <div class="about-img">
-        <img src="images/about.jpg" alt="">
-    </div>
 
-    <div class="about-content">
-        <h2 class="heading"> About <span>Me</span></h2>
-        <h3>Full Stack Developer</h3>
-        <p>Hello! My name is Vigneshvar Pandi, and I'm a passionate Computer Science and Engineering student. 
-            I thrive on creating innovative and user-centric web solutions. As a dedicated full-stack developer, 
-            I have hands-on experience in crafting dynamic, responsive, and visually appealing web applications using 
-            modern technologies like HTML, CSS, JavaScript, and frameworks such as React and Node.js.</p>
-
-        <a href="#" class="btn">Read More</a>
-    </div>
- </section>
-
- <!-- Skills section design -->
-  <section class="Skills" id="Skills">
-    <h2 class="heading"> My Skills</h2>
-  </section>
-
- <!-- portfolio section design -->
-  <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Project</span></h2>
-
-    <div class="portfolio-container">
-        <div class="portfolio-box">
-            <img src="images/portfolio1.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Bank Application</h4>
-                <p>"A secure and efficient banking application developed using Java and JDBC, featuring modules for Database, Account, Admin, Bank, and Transaction management."</p>
-                <a href="#"><i class='bx bx-link'></i></a>
-            </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 vigneshvar pandi R. All Rights Reserved.</p>
         </div>
+    </footer>
 
-        <div class="portfolio-box">
-            <img src="images/portfolio1.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Bank Application</h4>
-                <p>"A secure and efficient banking application developed using Java and JDBC, featuring modules for Database, Account, Admin, Bank, and Transaction management."</p>
-                <a href="#"><i class='bx bx-link'></i></a>
-            </div>
-        </div>
-
-        <div class="portfolio-box">
-            <img src="images/portfolio1.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Bank Application</h4>
-                <p>"A secure and efficient banking application developed using Java and JDBC, featuring modules for Database, Account, Admin, Bank, and Transaction management."</p>
-                <a href="#"><i class='bx bx-link'></i></a>
-            </div>
-        </div>
-
-        <div class="portfolio-box">
-            <img src="images/portfolio1.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Bank Application</h4>
-                <p>"A secure and efficient banking application developed using Java and JDBC, featuring modules for Database, Account, Admin, Bank, and Transaction management."</p>
-                <a href="#"><i class='bx bx-link'></i></a>
-            </div>
-        </div>
-        <div class="portfolio-box">
-            <img src="images/portfolio1.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Bank Application</h4>
-                <p>"A secure and efficient banking application developed using Java and JDBC, featuring modules for Database, Account, Admin, Bank, and Transaction management."</p>
-                <a href="#"><i class='bx bx-link'></i></a>
-            </div>
-        </div>
-
-        <div class="portfolio-box">
-            <img src="images/portfolio1.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Bank Application</h4>
-                <p>"A secure and efficient banking application developed using Java and JDBC, featuring modules for Database, Account, Admin, Bank, and Transaction management."</p>
-                <a href="#"><i class='bx bx-link'></i></a>
-            </div>
-        </div>
-    </div>
-    <!-- custom js -->
-     <script src="js/script.js"></script>
-  </body>
-
+    <script src="script.js"></script>
+</body>
 </html>
